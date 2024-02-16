@@ -1,0 +1,7 @@
+version: '1'
+
+services:
+  springboot:
+    image: springboot.jar
+    ports:
+      - "9090:8080"
